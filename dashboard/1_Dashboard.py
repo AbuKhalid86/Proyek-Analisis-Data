@@ -9,7 +9,7 @@ from streamlit_folium import folium_static
 # Load data with caching
 @st.cache_data
 def load_data():
-    data = pd.read_csv('all_data.csv')
+    data = pd.read_csv('dashboard/all_data.csv')
     data['mean_all_pollutants'] = data[['PM2.5', 'PM10', 'SO2', 'NO2', 'CO', 'O3']].mean(axis=1)
     return data
 
