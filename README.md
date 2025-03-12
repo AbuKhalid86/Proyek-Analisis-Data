@@ -6,8 +6,10 @@
 - cd Dashboard
 - python -m venv Beijing_Air_Quality
 - cd Beijing_Air_Quality
-- touch Beijing_Air_Quality/1_Dashboard.py
-- touch Beijing_Air_Quality/2_Dokumentasi_Polutan.py
+- mkdir dashboard
+- touch dashboard/1_Dashboard.py
+- touch dashboard/2_Dokumentasi_Polutan.py
+- touch dashboard/all_data.csv
 ```
 ### Membuat file requirements.txt
 ```
