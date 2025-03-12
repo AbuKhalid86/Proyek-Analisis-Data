@@ -11,7 +11,7 @@
 ```
 ### Membuat file requirements.txt
 ```
-- !pip freeze > requirements.txt
+- pip freeze > requirements.txt
 ```
 ### URL Streamlit
 ```
